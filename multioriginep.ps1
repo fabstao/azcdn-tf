@@ -25,7 +25,7 @@ if(($null -eq $account) -or ($account -eq "")) {
 Write-Output "Checking: $account"
 
 $location = "EastUS"
-$subid = "8c12de75-5827-4795-b948-6c427fc4b7ab"
+$subid = "xyxyxy-xyxyxyxy-xyxyxyxy-xyxyxyxy010101" # Must define your subscription ID here
 
 Write-Output "Using parameters:"
 Write-Output "$ResourceGroup `n`r$CdnProfile`n`r$Endpoint`n`r$OriginGroup`n`r$Origin1`n`r$Origin2`n`r$Hostname2"
